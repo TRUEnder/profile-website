@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #313942 !important;
+    color: #bbbbbb !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #bbbbbb !important;
+}
+
+ul {
+    margin-bottom: 0 !important;
+}
+
+header {
+    padding: 1.5rem 4rem;
+}
+
+header .wrap-items div {
+    width: fit-content;
+}
+
+header .wrap-items #logo-container #logo {
+    width: 130px;
+}
+
+header .wrap-items #menu-container img {
+    width: 3rem;
+    opacity: 0.6;
+}
+
+header #navbar {
+    margin-top: -35px;
+}
+
+#navbar li {
+    list-style-type: none;
+}
+
+main .halo-container {
+    height: 504px;
+}
+
+#halo-circle {
+    width: 450px;
+    height: 450px;
+    border-radius: 230px;
+    background-color: #2a2a33;
+}
+
+section#profile {
+    top: 74px;
+    padding: 1rem 10%;
+}
+
+section#profile .self-description {
+    width: 40%;
+    color: #bbbbbb;
+}
+
+h1 {
+    font-size: 50px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.1rem;
+}
+
+h1 span {
+    font-weight: 500 !important;
+    color: #ececec;
+}
+
+.self-description .bar {
+    background-color: #ceaf00;
+    width: 50%;
+    height: 4px;
+}
+
+.self-description p {
+    width: 70%;
+}
+
+.profile-photo-container {
+    margin-left: -8rem;
+}
+
+.profile-photo-container #profile-photo {
+    width: 560px;
+}
+
+section#profile .contact {
+    width: 30%;
+    margin-top: 4rem;
+    margin-left: -3rem;
+}
+
+section#profile .contact h2 {
+    font-size: 1rem !important;
+}
+
+.contact p {
+    font-size: 1.1rem;
+}
+
+.contact .contact-list {
+    gap: 1.83rem;
+}
+
+.contact-list a {
+    padding: 0.5rem 0.7rem;
+    border-radius: 70%;
+    background-color: #555555;
+}
+
+.contact-list a i {
+    font-size: 1.2rem;
+    color: #e7b432;
+}
+
+section#skills {
+    margin-top: -1rem;
+}
+
+section#skills .skills-container {
+    background-color: #ececec;
+    border-radius: 1rem 1rem 0rem 0rem;
+    margin-top: 18rem;
+    padding: 1.5rem 9rem 0;
+    box-shadow: 0px 0px 40px #242424;
+}
+
+.skills-container h2 {
+    font-size: 1.5rem;
+    color: #242424;
+}
+
+.skills-boxes .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 4rem;
+    padding: 1rem;
+}
+
+.box img {
+    height: 100%;
+}
