@@ -4,3 +4,5 @@
 </a>
 <br /><br />
 Very simple landing page for profile website build using Node.js and Express, and will be uploaded in App Engine for mid-submission in Dicoding 'Menjadi Cloud Engineer' course.
+
+The Cloud Storage that service the images for this app is no longer existed, so if you download it, it maybe not displaying any image.
